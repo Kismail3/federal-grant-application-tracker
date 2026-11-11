@@ -79,9 +79,14 @@ Tests use **a temporary copy of the database**, leaving the bundled demo snapsho
 
 **Note:** Updating records changes the local database snapshot. To reset the demo, replace `federal_grants.db` with a fresh copy from this repository.
 
-## Design notes
+### Dashboard Overview
 
-The dashboard uses a navy, teal, and gold theme, custom Capitol SVG assets, and matching metric cards. The API uses SQLite foreign keys and records each permitted status transition in `status_history`. The workflow allows `Submitted → Under Review → Approved/Rejected`; approved and rejected are terminal states.
+![Dashboard Overview](Screenshot_1.png)
+![Application Management](Screenshot_2.png)
+![Application Details](Screenshot_3.png)
+![Status Management](Screenshot_4.png)
+![Reviewer Analytics](Screenshot_5.png)
+![Funding Analysis](Screenshot_6.png)
 
 ## Future improvements
 
